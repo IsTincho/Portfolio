@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: relative;
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 3px none #ffffff;
+    outline: 7;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #ffffff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 560;
+    /* Suma de la longitud total del trazo */
+    stroke-width: 5px;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.btn:hover svg {
+    stroke-dasharray: 630;
+    /* Nueva longitud total del trazo al hacer hover */
+    stroke-dashoffset: 0;
+    /* Completa el trazo al hacer hover */
+}
+
+.btn span {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 100;
+}
