@@ -30,9 +30,9 @@ const darkTheme = createTheme({
     MuiButton: {
       styleOverrides: {
         contained: {
-          backgroundColor: "#ff8a80", // Color de fondo normal
+          backgroundColor: "#ff8a80",
           "&:hover": {
-            backgroundColor: "#ff5a52", // Cambia el color de fondo al hacer hover
+            backgroundColor: "#ff5a52",
           },
         },
       },
@@ -80,7 +80,7 @@ const NotFound = () => {
         />
         <Link to="/">
           <Button variant="contained" color="primary" size="large">
-            Go to Home
+            Back to Home
           </Button>
         </Link>
       </Container>

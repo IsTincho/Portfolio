@@ -13,7 +13,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           {/*<Route path="/about-me" element={<AboutMeView />} />
-          <Route path="/my-projects" element={<MyProjectsView />} />*/}
+          <Route path="/my-projects" element={<MyProjectsView />} />
+          Comentado para trabajar en el futuro*/}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

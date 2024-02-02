@@ -18,7 +18,7 @@ const SectionWrapper = styled("div")({
   alignItems: "center",
   justifyContent: "center",
   position: "relative",
-  zIndex: 1, // Asegura que el contenido esté encima del fondo
+  zIndex: 1,
 });
 
 const LeftSection = styled(SectionWrapper)({
@@ -43,14 +43,14 @@ const Overlay = styled("div")({
   left: 0,
   width: "100%",
   height: "100%",
-  background: "rgba(0, 0, 0, 0.4)", // Negro con opacidad del 30%
-  zIndex: 0, // Asegura que el fondo esté detrás del contenido
+  background: "rgba(0, 0, 0, 0.4)",
+  zIndex: 0,
 });
 
 const ButtonWrapper = styled("div")({
   padding: "10px 20px",
   fontSize: "1.2rem",
-  zIndex: 2, // Asegura que el contenido esté encima del fondo
+  zIndex: 2,
 });
 
 const Home = () => {
